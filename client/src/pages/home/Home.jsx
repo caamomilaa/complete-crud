@@ -4,6 +4,7 @@ import {
 	StyledCard,
 	StyledCardsContainer,
 	StyledImg,
+	StyledNav,
 	StyledTextContainer
 } from './home.styles';
 
@@ -27,7 +28,7 @@ const Home = () => {
 								<p>{user.active}</p>
 							</div>
 						</StyledTextContainer>
-						<button>DETAILS</button>
+						<StyledNav>DETAILS</StyledNav>
 					</StyledCard>
 				))}
 			</StyledCardsContainer>

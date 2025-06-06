@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 const StyledCardsContainer = styled.div`
@@ -28,5 +29,19 @@ const StyledTextContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 `;
+const StyledNav = styled(NavLink)`
+	cursor: pointer;
+	color: #c25399;
+	font-size: 14px;
+	padding: 4px 8px;
+	border: 1px solid #c25399;
+	border-radius: 4px;
+`;
 
-export { StyledCard, StyledCardsContainer, StyledImg, StyledTextContainer };
+export {
+	StyledCard,
+	StyledCardsContainer,
+	StyledImg,
+	StyledTextContainer,
+	StyledNav
+};
